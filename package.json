@@ -1,0 +1,38 @@
+{
+  "name": "github-discord-bot",
+  "version": "1.0.0",
+  "description": "discord bot for github",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hi-Van/github-discord-bot.git"
+  },
+  "keywords": [
+    "git",
+    "discord"
+  ],
+  "author": "Vanouphon Sirisouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hi-Van/github-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Hi-Van/github-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "tsup": "^8.0.2",
+    "tsx": "^4.9.0",
+    "typescript": "^5.4.5"
+  }
+}
